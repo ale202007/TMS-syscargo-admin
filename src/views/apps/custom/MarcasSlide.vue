@@ -14,12 +14,12 @@ import { onMounted } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import foto1 from "../Companies/birdseye.svg";
-import foto2 from "../Companies/break.svg";
-import foto3 from "../Companies/keddar.svg";
-import foto4 from "../Companies/shield.svg";
-import foto5 from "../Companies/tandov.svg";
-import foto6 from "../Companies/tree.svg";
+import foto1 from "@/assets/metronic-9.png";
+import foto2 from "@/assets/metronic-9.png";
+import foto3 from "@/assets/metronic-9.png";
+import foto4 from "@/assets/metronic-9.png";
+import foto5 from "@/assets/metronic-9.png";
+import foto6 from "@/assets/metronic-9.png";
 
 interface Brand {
   imgSrc: string;
