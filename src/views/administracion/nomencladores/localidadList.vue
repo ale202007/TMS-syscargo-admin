@@ -166,7 +166,7 @@ import Datatable from "@/components/kt-datatable/KTDataTable.vue";
 import type { Sort } from "@/components/kt-datatable//table-partials/models";
 import ExportCustomerModal from "@/components/modals/forms/otros/ExportCustomerModal.vue";
 import AddLocalidadModal from "@/components/modals/forms/AddLocalidadModal.vue";
-import EditLocalidadModal from "@/components/modals/forms/editLocalidadModal.vue";
+
 import type { ILocalidad } from "@/core/data/localidades";
 import localidades from "@/core/data/localidades";
 import arraySort from "array-sort";
@@ -178,7 +178,6 @@ export default defineComponent({
     Datatable,
     ExportCustomerModal,
     AddLocalidadModal,
-    EditLocalidadModal,
   },
   setup() {
     const tableHeader = ref([
