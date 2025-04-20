@@ -12,8 +12,18 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "/metronic8/vue/demo1/",
+  //base: "/metronic8/vue/demo1/",
+  base: "/",
   build: {
     chunkSizeWarningLimit: 3000,
-  },
+    // Añadir para mejor rendimiento
+    cssCodeSplit: true,
+    sourcemap: false,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true
+      }
+    }
+  }
 });
